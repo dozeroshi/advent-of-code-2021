@@ -2,7 +2,7 @@ import { readFileSync } from 'fs';
 
 const goGoSubmarine = () => {
 
-    const plannedCourse = readFileSync('./day2-input.txt', 'utf-8').split(/\n+/);
+    const plannedCourse = readFileSync('./day2-input-number-draws.txt', 'utf-8').split(/\n+/);
 
     interface SubState {
         horizontalPos: number;

@@ -1,6 +1,6 @@
 import { readFileSync } from 'fs';
 
-const text = readFileSync("./input.txt", 'utf-8');
+const text = readFileSync("./input-number-draws.txt", 'utf-8');
 const depthsArray = text.split("\n")
 
 const calculateIncreases = (input: string[]) => {
